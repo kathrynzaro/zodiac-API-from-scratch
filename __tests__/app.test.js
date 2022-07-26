@@ -20,13 +20,13 @@ describe('zodiacs routes', () => {
 
   it('/zodiacs/:id should return zodiac detail', async () => {
     const res = await request(app).get('/zodiacs/1');
-    const felix = {
+    const aquarius = {
       id: '1',
       name: 'aquarius',
       dates: 'Jan 21 - Feb 19',
       symbol: 'Water Bearer',
     };
-    expect(res.body).toEqual(felix);
+    expect(res.body).toEqual(aquarius);
   });
 
   afterAll(() => {
