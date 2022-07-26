@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Bangers&family=Chicle&family=Comfortaa:wght@300&family=Creepster&family=Grand+Hotel&family=Great+Vibes&family=Griffy&family=IM+Fell+French+Canon&family=IM+Fell+French+Canon+SC&family=Inconsolata:wght@200&family=Irish+Grover&family=Josefin+Sans&family=Karla&family=Limelight&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:wght@400;700&family=Neonderthaw&family=Nixie+One&family=Oswald&family=Philosopher:wght@400;700&family=Poiret+One&family=Press+Start+2P&family=Raleway:wght@100&family=Roboto+Mono:wght@100&family=Rye&family=Slabo+27px&family=Sora:wght@400;700&family=Space+Mono&family=Spectral&family=Tenor+Sans&family=Ultra&family=Unica+One&family=VT323&family=Varela+Round&family=Yeseva+One&display=swap');
+
+body {
+  font-family: 'Space Mono', monospace;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 50px;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+}
+
+a:hover {
+  cursor: pointer;
+  opacity: .4;
+}
